@@ -43,7 +43,7 @@ jobs:
       run: |
         gradle wrapper
         bash gradlew runData
-        bash gradlew buildNeed
+        bash gradlew buildNeeded
 
     - name: Find Correct JAR
       id: findjar
